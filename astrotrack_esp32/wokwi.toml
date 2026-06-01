@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = 'astrotrack_esp32.ino'
+diagram = 'diagram.json'

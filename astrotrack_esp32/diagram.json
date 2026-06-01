@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "author": "Freitas",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 0, "left": 0, "attrs": {} },
+    {
+      "type": "wokwi-lcd1602",
+      "id": "lcd1",
+      "top": -147.2,
+      "left": -32.8,
+      "attrs": { "pins": "i2c" }
+    },
+    { "type": "wokwi-led", "id": "led1", "top": 92.4, "left": 282.2, "attrs": { "color": "red" } },
+    {
+      "type": "wokwi-led",
+      "id": "led2",
+      "top": 15.6,
+      "left": 272.6,
+      "attrs": { "color": "green" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": 71.15,
+      "left": 220.8,
+      "attrs": { "value": "1000" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r2",
+      "top": 186.35,
+      "left": 230.4,
+      "attrs": { "value": "1000" }
+    },
+    {
+      "type": "wokwi-pushbutton-6mm",
+      "id": "btn1",
+      "top": 84.2,
+      "left": -172.8,
+      "attrs": { "color": "red", "xray": "1" }
+    },
+    {
+      "type": "wokwi-pushbutton-6mm",
+      "id": "btn2",
+      "top": 161,
+      "left": -220.8,
+      "attrs": { "color": "green", "xray": "1" }
+    }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "esp:GND.1", "lcd1:GND", "black", [ "h-71.81", "v-9.6" ] ],
+    [ "esp:5V", "lcd1:VCC", "red", [ "h-62.21", "v-307.2" ] ],
+    [ "esp:21", "lcd1:SDA", "green", [ "h4.84", "v-86.4", "h-153.6", "v-86.4" ] ],
+    [ "esp:22", "lcd1:SCL", "green", [ "h14.44", "v-48", "h-153.6", "v-86.4" ] ],
+    [ "led2:A", "r1:2", "green", [ "v0" ] ],
+    [ "led1:A", "r2:2", "green", [ "v0" ] ],
+    [ "r1:1", "esp:GND.3", "green", [ "v0" ] ],
+    [ "r2:1", "esp:GND.3", "green", [ "v0" ] ],
+    [ "led2:C", "esp:2", "green", [ "v0" ] ],
+    [ "led1:C", "esp:4", "green", [ "v0" ] ],
+    [ "esp:GND.1", "btn1:2.r", "black", [ "h0" ] ],
+    [ "esp:GND.1", "btn2:2.r", "black", [ "v19.2", "h-197.41" ] ],
+    [ "esp:12", "btn1:1.r", "green", [ "v0" ] ],
+    [ "esp:13", "btn2:1.r", "green", [ "h0" ] ]
+  ],
+  "dependencies": {}
+}
