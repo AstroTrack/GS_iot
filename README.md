@@ -1,7 +1,6 @@
 # AstroTrack - Logística Satelital
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge" alt="Status">
   <img src="https://img.shields.io/badge/Platform-ESP32-blue?style=for-the-badge&logo=espressif" alt="Platform">
   <img src="https://img.shields.io/badge/Simulator-Wokwi-2196F3?style=for-the-badge" alt="Wokwi">
   <img src="https://img.shields.io/badge/Connectivity-WiFi%20%7C%20REST-orange?style=for-the-badge" alt="Connectivity">
