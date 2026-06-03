@@ -4,30 +4,22 @@
 #include <ArduinoJson.h>
 #include <LiquidCrystal_I2C.h>
 
-// --- Configurações de Hardware ---
 const int PIN_PANIC_BTN = 12;
 const int PIN_DOOR_SENSOR = 13;
 const int PIN_PANIC_LED = 2;
 const int PIN_SYSTEM_LED = 4;
 
-// --- Instâncias ---
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 WebServer server(80);
 
-// --- Variáveis de Estado ---
 bool panicActive = false;
 bool doorOpen = false;
 float latitude = -23.5505;
 float longitude = -46.6333;
 String lastUpdate = "Never";
 
-// --- WiFi ---
 const char* ssid = "Wokwi-GUEST";
 const char* password = "";
-
-// ======================================================
-// FUNÇÃO LCD (DECLARADA ANTES DE SER UTILIZADA)
-// ======================================================
 
 void updateLCD() {
   lcd.clear();
@@ -48,10 +40,6 @@ void updateLCD() {
     lcd.print("PORTA FECHADA");
   }
 }
-
-// ======================================================
-// HANDLERS WEB
-// ======================================================
 
 void handleRoot() {
   server.send(200, "text/plain", "AstroTrack IoT Gateway Operational");
@@ -105,12 +93,7 @@ void handleTogglePanic() {
   updateLCD();
 }
 
-// ======================================================
-// SETUP
-// ======================================================
-
 void setup() {
-
   Serial.begin(115200);
   delay(1000);
 
@@ -124,7 +107,6 @@ void setup() {
 
   Serial.println("GPIOs Initialized");
 
-  // LCD
   Wire.begin(21, 22);
 
   lcd.init();
@@ -134,8 +116,7 @@ void setup() {
   lcd.print("AstroTrack Init");
 
   Serial.println("LCD Initialized");
-
-  // WiFi
+  
   WiFi.begin(ssid, password);
 
   while (WiFi.status() != WL_CONNECTED) {
@@ -168,11 +149,6 @@ void setup() {
 
   updateLCD();
 }
-
-// ======================================================
-// LOOP
-// ======================================================
-
 void loop() {
 
   server.handleClient();
