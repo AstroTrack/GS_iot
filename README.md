@@ -96,8 +96,7 @@ Endpoint de controle que permite disparar o alerta de pânico remotamente via so
    - Observe as atualizações instantâneas no **LCD**.
 
 ## Link Demonstração
-Link da demonstração no Youtube
-> Adicionar o video
+[Link da demonstração no Youtube](https://youtu.be/ZLHSfjux70o)
 
 ## Autores
 Artur Correia - [GitHub](https://github.com/artcorreia)<br>
