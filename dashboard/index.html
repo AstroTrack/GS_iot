@@ -1,0 +1,285 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>AstroTrack | Controle de Telemetria</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #2196F3;
+      --bg: #0b0e14;
+      --card-bg: rgba(255, 255, 255, 0.05);
+      --text: #e0e0e0;
+      --text-dim: #a0a0a0;
+      --danger: #ff4d4d;
+      --success: #4CAF50;
+    }
+
+    * { box-sizing: border-box; }
+    
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: var(--bg);
+      background-image: 
+        radial-gradient(circle at 20% 30%, rgba(33, 150, 243, 0.05) 0%, transparent 40%),
+        radial-gradient(circle at 80% 70%, rgba(33, 150, 243, 0.05) 0%, transparent 40%);
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    .topnav {
+      background: rgba(12, 28, 76, 0.8);
+      backdrop-filter: blur(10px);
+      padding: 1.5rem;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .topnav i { color: var(--primary); margin-right: 10px; }
+
+    .content {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+
+    .status-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 2rem;
+      background: var(--card-bg);
+      padding: 1rem 1.5rem;
+      border-radius: 12px;
+      border: 1px solid rgba(255,255,255,0.05);
+    }
+
+    .live-indicator {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.85rem;
+      color: var(--text-dim);
+    }
+
+    .dot {
+      height: 8px;
+      width: 8px;
+      background-color: var(--success);
+      border-radius: 50%;
+      display: inline-block;
+      box-shadow: 0 0 8px var(--success);
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0% { opacity: 1; }
+      50% { opacity: 0.3; }
+      100% { opacity: 1; }
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .card {
+      background: var(--card-bg);
+      backdrop-filter: blur(5px);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 20px;
+      padding: 2rem;
+      text-align: center;
+      transition: transform 0.3s ease, border-color 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      border-color: rgba(33, 150, 243, 0.3);
+    }
+
+    .card i {
+      font-size: 2.5rem;
+      margin-bottom: 1.5rem;
+      display: block;
+    }
+
+    .card h3 {
+      margin: 0 0 1rem 0;
+      font-size: 1.1rem;
+      color: var(--text-dim);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .data-value {
+      font-size: 1.8rem;
+      font-weight: 700;
+      margin: 0;
+    }
+
+    .status-badge {
+      display: inline-block;
+      padding: 0.5rem 1.2rem;
+      border-radius: 50px;
+      font-weight: 600;
+      font-size: 0.9rem;
+      margin-top: 0.5rem;
+    }
+
+    .status-safe { background: rgba(76, 175, 80, 0.1); color: var(--success); border: 1px solid var(--success); }
+    .status-alert { background: rgba(255, 77, 77, 0.1); color: var(--danger); border: 1px solid var(--danger); animation: shake 0.5s infinite; }
+
+    @keyframes shake {
+      0%, 100% { transform: translateX(0); }
+      25% { transform: translateX(-2px); }
+      75% { transform: translateX(2px); }
+    }
+
+    .geo-info {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 1rem;
+    }
+
+    .geo-coord {
+      background: rgba(255,255,255,0.03);
+      padding: 0.5rem 1rem;
+      border-radius: 10px;
+    }
+
+    .geo-coord label {
+      display: block;
+      font-size: 0.7rem;
+      color: var(--text-dim);
+      text-transform: uppercase;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 3rem;
+      color: var(--text-dim);
+      font-size: 0.8rem;
+    }
+
+    @media (max-width: 600px) {
+      .content { padding: 1rem; }
+      .cards { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="topnav">
+    <i class="fas fa-satellite-dish"></i> ASTROTRACK <span style="font-weight: 300; opacity: 0.7;">CONTROL</span>
+  </div>
+
+  <div class="content">
+    <div class="status-bar">
+      <div class="live-indicator">
+        <span class="dot"></span> MONITORAMENTO
+      </div>
+      <div style="font-size: 0.85rem; color: var(--text-dim);">
+        ID DO DISPOSITIVO: <span id="device-id" style="color: var(--text); font-weight: 600;">--</span>
+      </div>
+    </div>
+
+    <div class="cards">
+      <div class="card">
+        <i class="fas fa-shield-alt" id="panic-icon" style="color: var(--success);"></i>
+        <h3>Segurança Operacional</h3>
+        <div id="panic-status-container">
+          <span id="panic-status" class="status-badge status-safe">AGUARDANDO...</span>
+        </div>
+      </div>
+      <div class="card">
+        <i class="fas fa-box-open" id="door-icon" style="color: var(--primary);"></i>
+        <h3>Integridade da Carga</h3>
+        <div id="door-status-container">
+          <span id="door-status" class="status-badge status-safe">AGUARDANDO...</span>
+        </div>
+      </div>
+      <div class="card" style="grid-column: span 1;">
+        <i class="fas fa-map-marked-alt" style="color: var(--primary);"></i>
+        <h3>Localização GPS</h3>
+        <div class="geo-info">
+          <div class="geo-coord">
+            <label>Latitude</label>
+            <span id="lat" class="data-value">0.00000</span>
+          </div>
+          <div class="geo-coord">
+            <label>Longitude</label>
+            <span id="lng" class="data-value">0.00000</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      AstroTrack System &copy; 2026
+    </div>
+  </div>
+
+  <script>
+    // TROCAR A CACETA DA API
+    const API_URL = 'http://172.16.70.59:3000/telemetry';
+
+    function updateDashboard() {
+      fetch(API_URL)
+        .then(response => response.json())
+        .then(dataArray => {
+          if (!dataArray || dataArray.length === 0) return;
+          
+          const data = dataArray[dataArray.length - 1];
+
+          document.getElementById('device-id').innerText = data.deviceId;
+
+          const panicEl = document.getElementById('panic-status');
+          const panicIcon = document.getElementById('panic-icon');
+          if(data.panic) {
+            panicEl.innerText = "ALERTA DE PÂNICO";
+            panicEl.className = "status-badge status-alert";
+            panicIcon.style.color = "var(--danger)";
+            panicIcon.className = "fas fa-exclamation-triangle";
+          } else {
+            panicEl.innerText = "SISTEMA SEGURO";
+            panicEl.className = "status-badge status-safe";
+            panicIcon.style.color = "var(--success)";
+            panicIcon.className = "fas fa-shield-alt";
+          }
+          
+          const doorEl = document.getElementById('door-status');
+          const doorIcon = document.getElementById('door-icon');
+          if(data.door_open) {
+            doorEl.innerText = "CARGA EXPOSTA";
+            doorEl.className = "status-badge status-alert";
+            doorIcon.style.color = "var(--danger)";
+            doorIcon.className = "fas fa-door-open";
+          } else {
+            doorEl.innerText = "CARGA SELADA";
+            doorEl.className = "status-badge status-safe";
+            doorIcon.style.color = "var(--success)";
+            doorIcon.className = "fas fa-door-closed";
+          }
+
+          document.getElementById('lat').innerText = parseFloat(data.latitude).toFixed(5);
+          document.getElementById('lng').innerText = parseFloat(data.longitude).toFixed(5);
+        })
+        .catch(err => console.error("Erro na conexão com a API:", err));
+    }
+
+    setInterval(updateDashboard, 2000);
+    updateDashboard();
+  </script>
+</body>
+</html>

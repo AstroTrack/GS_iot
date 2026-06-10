@@ -19,7 +19,7 @@ const unsigned long sendInterval = 5000;
 
 const char* ssid = "Wokwi-GUEST";
 const char* password = "";
-const char* serverUrl = "http://192.168.10.4:3000/telemetry"; 
+const char* serverUrl = "http://172.16.70.59:3000/telemetry"; 
 const String deviceId = "ASTRO_001";
 
 void updateLCD() {

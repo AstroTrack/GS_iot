@@ -1,0 +1,752 @@
+{
+  "telemetry": [
+    {
+      "id": "1",
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.5505,
+      "longitude": -46.6333,
+      "timestamp": 0
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.55055,
+      "longitude": -46.633209,
+      "timestamp": 6109,
+      "id": "im2m9Y7BPbw"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.550501,
+      "longitude": -46.63332,
+      "timestamp": 6110,
+      "id": "sHB1JvXRClw"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.55056,
+      "longitude": -46.63324,
+      "timestamp": 6110,
+      "id": "EnliZDcqhwQ"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.550581,
+      "longitude": -46.633007,
+      "timestamp": 11339,
+      "id": "FfX1mC3xgIo"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": true,
+      "latitude": -23.550682,
+      "longitude": -46.632778,
+      "timestamp": 13718,
+      "id": "2uZub0DInSE"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.550732,
+      "longitude": -46.632759,
+      "timestamp": 14025,
+      "id": "V6d0piIbLVg"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.551201,
+      "longitude": -46.632977,
+      "timestamp": 16456,
+      "id": "RcUVbov1bbE"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.550993,
+      "longitude": -46.632633,
+      "timestamp": 21674,
+      "id": "AM2VfhH56zw"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.551058,
+      "longitude": -46.633217,
+      "timestamp": 26865,
+      "id": "aRKenY32Fbo"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": true,
+      "door_open": false,
+      "latitude": -23.551464,
+      "longitude": -46.632763,
+      "timestamp": 31994,
+      "id": "LYyug32_Jpk"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": true,
+      "door_open": false,
+      "latitude": -23.551405,
+      "longitude": -46.632854,
+      "timestamp": 32116,
+      "id": "B0eICqAkYHI"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": true,
+      "door_open": false,
+      "latitude": -23.551201,
+      "longitude": -46.633533,
+      "timestamp": 37329,
+      "id": "emn29BTmHUA"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": true,
+      "door_open": false,
+      "latitude": -23.551859,
+      "longitude": -46.633511,
+      "timestamp": 42520,
+      "id": "AznOa64GDqM"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": true,
+      "door_open": false,
+      "latitude": -23.552689,
+      "longitude": -46.633709,
+      "timestamp": 47714,
+      "id": "sW847lwx2pQ"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.550907,
+      "longitude": -46.633732,
+      "timestamp": 20456,
+      "id": "lBhRi3bs5fA"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.551603,
+      "longitude": -46.633835,
+      "timestamp": 25648,
+      "id": "CmXuQkm2Dfg"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": true,
+      "latitude": -23.551453,
+      "longitude": -46.633984,
+      "timestamp": 26507,
+      "id": "VDnrlB8zksA"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.551472,
+      "longitude": -46.633923,
+      "timestamp": 26814,
+      "id": "GHbo1XEQqdo"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": true,
+      "door_open": false,
+      "latitude": -23.551847,
+      "longitude": -46.633289,
+      "timestamp": 29581,
+      "id": "iKtvJpDQUKM"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": true,
+      "door_open": false,
+      "latitude": -23.551529,
+      "longitude": -46.632954,
+      "timestamp": 30800,
+      "id": "aszOL-ATKBc"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": true,
+      "door_open": false,
+      "latitude": -23.551985,
+      "longitude": -46.633308,
+      "timestamp": 35992,
+      "id": "JG2ytT3PryE"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": true,
+      "door_open": false,
+      "latitude": -23.55175,
+      "longitude": -46.634033,
+      "timestamp": 41177,
+      "id": "y-izBPp9IQc"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.55175,
+      "longitude": -46.634033,
+      "timestamp": 41489,
+      "id": "RfYFS69bu-s"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.552338,
+      "longitude": -46.634575,
+      "timestamp": 46318,
+      "id": "NhaZIlxD2TM"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.553194,
+      "longitude": -46.634819,
+      "timestamp": 51508,
+      "id": "MWLs3OSAghU"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.55331,
+      "longitude": -46.635429,
+      "timestamp": 56702,
+      "id": "xMeRu91iWLg"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.553406,
+      "longitude": -46.635471,
+      "timestamp": 61912,
+      "id": "22g1hZCRrKs"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.553368,
+      "longitude": -46.636364,
+      "timestamp": 67112,
+      "id": "Yddx5fjjOYA"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.553116,
+      "longitude": -46.637238,
+      "timestamp": 72312,
+      "id": "wLx13PB7AlA"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.549885,
+      "longitude": -46.63504,
+      "timestamp": 27657,
+      "id": "3yhWs7ggIWw"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.550072,
+      "longitude": -46.63562,
+      "timestamp": 33385,
+      "id": "gI4OFF8ZxNY"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.55056,
+      "longitude": -46.633362,
+      "timestamp": 6112,
+      "id": "heZxSlF2zeA"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": true,
+      "latitude": -23.550943,
+      "longitude": -46.633495,
+      "timestamp": 10842,
+      "id": "amAW9cspLqM"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.550953,
+      "longitude": -46.633457,
+      "timestamp": 11141,
+      "id": "pBrzGYT87Po"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.551102,
+      "longitude": -46.633427,
+      "timestamp": 11359,
+      "id": "QdIkkRd-fcA"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.550892,
+      "longitude": -46.633194,
+      "timestamp": 16546,
+      "id": "g6CNVt8NIlk"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.551264,
+      "longitude": -46.633274,
+      "timestamp": 21748,
+      "id": "yQLf1NpgJYA"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.55196,
+      "longitude": -46.633915,
+      "timestamp": 26934,
+      "id": "fbfeT4nQn-8"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": true,
+      "latitude": -23.55195,
+      "longitude": -46.633842,
+      "timestamp": 27593,
+      "id": "mBtOLphmgik"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.55188,
+      "longitude": -46.633781,
+      "timestamp": 27916,
+      "id": "RpZUncWjVKQ"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": true,
+      "latitude": -23.551609,
+      "longitude": -46.633934,
+      "timestamp": 32129,
+      "id": "wBAiQoGdqls"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": true,
+      "latitude": -23.551628,
+      "longitude": -46.634026,
+      "timestamp": 32258,
+      "id": "BJ3Ex2IW4Yk"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.551628,
+      "longitude": -46.634026,
+      "timestamp": 32566,
+      "id": "Z0lM7190NK4"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": true,
+      "latitude": -23.55142,
+      "longitude": -46.634151,
+      "timestamp": 33379,
+      "id": "-gvWqvU-VGE"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.551451,
+      "longitude": -46.634232,
+      "timestamp": 33688,
+      "id": "3geOPh1o40M"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.551781,
+      "longitude": -46.634506,
+      "timestamp": 37423,
+      "id": "GKEuABN_wQ0"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.552616,
+      "longitude": -46.634747,
+      "timestamp": 42615,
+      "id": "2sbxBmGJihU"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": true,
+      "door_open": false,
+      "latitude": -23.552835,
+      "longitude": -46.635109,
+      "timestamp": 47054,
+      "id": "KJ_XHw9GuYo"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": true,
+      "door_open": false,
+      "latitude": -23.552704,
+      "longitude": -46.635181,
+      "timestamp": 47780,
+      "id": "fzD0ee0KjOg"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": true,
+      "door_open": false,
+      "latitude": -23.553095,
+      "longitude": -46.635033,
+      "timestamp": 52977,
+      "id": "0lVHwWiGNLU"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.552807,
+      "longitude": -46.63559,
+      "timestamp": 57200,
+      "id": "UVgHxTqNR7E"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.552687,
+      "longitude": -46.635727,
+      "timestamp": 58074,
+      "id": "RbAxmXz147A"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": true,
+      "latitude": -23.552708,
+      "longitude": -46.635384,
+      "timestamp": 59447,
+      "id": "Bau1QTdblNs"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.552698,
+      "longitude": -46.635353,
+      "timestamp": 59749,
+      "id": "osYdS9Z12Vk"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.552931,
+      "longitude": -46.635536,
+      "timestamp": 63263,
+      "id": "6dPRIVTJD14"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.553442,
+      "longitude": -46.635254,
+      "timestamp": 68470,
+      "id": "sIbL7C6Saxs"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.554111,
+      "longitude": -46.635094,
+      "timestamp": 73691,
+      "id": "vEZinMcT0IY"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.554586,
+      "longitude": -46.635586,
+      "timestamp": 78906,
+      "id": "OfLNjRERTqQ"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.554251,
+      "longitude": -46.635876,
+      "timestamp": 84108,
+      "id": "PApZlFth-dw"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.555193,
+      "longitude": -46.635468,
+      "timestamp": 89303,
+      "id": "Nkk8Ju5fCt0"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.555929,
+      "longitude": -46.635731,
+      "timestamp": 94515,
+      "id": "PN8-TAjU_7Y"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.556454,
+      "longitude": -46.635338,
+      "timestamp": 99718,
+      "id": "Wd9OOZQffu0"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.557028,
+      "longitude": -46.635422,
+      "timestamp": 104914,
+      "id": "r8-E8UMMn-U"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.557104,
+      "longitude": -46.636093,
+      "timestamp": 110108,
+      "id": "80yE_E3qZJc"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.557192,
+      "longitude": -46.63641,
+      "timestamp": 115318,
+      "id": "Z6O4RHLCR9A"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.557442,
+      "longitude": -46.636513,
+      "timestamp": 120529,
+      "id": "6_WzhUQBXjY"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.55732,
+      "longitude": -46.636345,
+      "timestamp": 125745,
+      "id": "EqW5LFsxM6I"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.557026,
+      "longitude": -46.636658,
+      "timestamp": 130967,
+      "id": "JZKIq5LfiIc"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.556673,
+      "longitude": -46.636616,
+      "timestamp": 136185,
+      "id": "0je8HejR-Ds"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.55703,
+      "longitude": -46.636692,
+      "timestamp": 141390,
+      "id": "7N5WOixnkjk"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.556555,
+      "longitude": -46.637074,
+      "timestamp": 146595,
+      "id": "xs068amiG30"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.557415,
+      "longitude": -46.637287,
+      "timestamp": 151800,
+      "id": "s0mZI60pgiY"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.557344,
+      "longitude": -46.637287,
+      "timestamp": 156997,
+      "id": "z0yZ172au5w"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.557415,
+      "longitude": -46.637505,
+      "timestamp": 162191,
+      "id": "X9d6KUCfJFs"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.55813,
+      "longitude": -46.637741,
+      "timestamp": 167385,
+      "id": "ecRbK4VutOw"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.558367,
+      "longitude": -46.637012,
+      "timestamp": 172599,
+      "id": "L-SBxjRNVW8"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.557976,
+      "longitude": -46.636642,
+      "timestamp": 177806,
+      "id": "WiVEMkB527M"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.558298,
+      "longitude": -46.63736,
+      "timestamp": 183028,
+      "id": "Uvx2hFEvlyE"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.557777,
+      "longitude": -46.637192,
+      "timestamp": 188233,
+      "id": "ahTr3Mwb2yE"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.558374,
+      "longitude": -46.636784,
+      "timestamp": 193439,
+      "id": "aQr6ZsTruDY"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.559099,
+      "longitude": -46.636898,
+      "timestamp": 198644,
+      "id": "rqn5SqGUkY0"
+    },
+    {
+      "deviceId": "ASTRO_001",
+      "panic": false,
+      "door_open": false,
+      "latitude": -23.560114,
+      "longitude": -46.636955,
+      "timestamp": 203838,
+      "id": "FyHp2nnk5QU"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

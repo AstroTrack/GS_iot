@@ -69,7 +69,7 @@ json-server --watch db.json --host 0.0.0.0
 ---
 
 ## Demonstração
-Acompanhe o funcionamento detalhado do sistema no vídeo: [Link do Vídeo no YouTube](https://youtu.be/_RjEli5Y-2c)
+Acompanhe o funcionamento detalhado do sistema no vídeo: [Link do Vídeo no YouTube](https://youtu.be/ZLHSfjux70o)
 
 
 ## Autores
